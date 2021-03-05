@@ -2,3 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
+*.Rproj
+Fiche_Presentation.pdf
