@@ -14,6 +14,7 @@ Dans ce module, vous verrez...
 
 Nous avons prévu du temps dans le module pour vous familiariser avec les différentes approches que nous allons aborder. Pour cela, il faut que vous ayez à votre disposition:
 
-* Rstudio (http://rstudio.com)
-* `git`, un outil de versionning (voir http://git-scm.com/downloads pour mac et windows, nous contacter pour les utilisateurs linux)
-* R avec les paquets (`stringr`, éventuellement `ggplot2`)
+* Rstudio (http://rstudio.com),
+* `git`, un outil de versionning (voir http://git-scm.com/downloads pour mac et windows, nous contacter pour les utilisateurs linux),
+* R avec les paquets (`stringr`, **[...]** et éventuellement `ggplot2`),
+* s'être créé un compte sur GitHub (www.github.com).
