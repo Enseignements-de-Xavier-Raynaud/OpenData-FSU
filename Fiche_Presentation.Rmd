@@ -1,0 +1,19 @@
+---
+title: "Préparation Module OpenData"
+author: "Jérôme Mathieu et Xavier Raynaud"
+date: "17/03/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Bienvenue dans le module **OpensScience et OpenData**. 
+Dans ce module, vous verrez...
+
+Nous avons prévu du temps dans le module pour vous familiariser avec les différentes approches que nous allons aborder. Pour cela, il faut que vous ayez à votre disposition:
+
+* Rstudio (http://rstudio.com)
+* `git`, un outil de versionning (voir http://git-scm.com/downloads pour mac et windows, nous contacter pour les utilisateurs linux)
+* R avec les paquets (`stringr`, éventuellement `ggplot2`)
