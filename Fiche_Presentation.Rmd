@@ -9,21 +9,23 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Bienvenue dans le module **OpensScience et OpenData**. 
-Dans ce module, vous verrez...
+Bienvenue dans le module **OpensScience et OpenData**! 
 
-Nous avons prévu du temps dans le module pour vous familiariser avec les différentes approches que nous allons aborder. Pour cela, il faut que vous ayez à votre disposition:
+Dans ce module, vous aller voir comment récupérer des données sur Internet et les importer dans R de manière automatique, comment préparer des documents dans lesquels les calculs et analyses sont réalisés au moment de leur génération, comment sauvegarder différentes versions d'un script ou d'un document, comment mettre ces différentes versions dans le *cloud* afin de pouvoir travailler à plusieurs sur un même document. 
 
+Nous avons prévu du temps dans le module pour vous familiariser, vous même, à ces différentes aspects. Pour cela, il faut que vous ayez à votre disposition:
+
+* `R`
 * **RStudio** (http://rstudio.com),
-* `git`, un outil de versionning (voir http://git-scm.com/downloads pour mac et windows, nous contacter pour les utilisateurs linux),
-* R avec les paquets (`stringr`, **[...]** et éventuellement `ggplot2`),
+* `git`, un outil de gestion de versions (voir http://git-scm.com/downloads pour Mac et Windows, nous contacter pour les utilisateurs Linux),
 * s'être créé un compte sur GitHub (www.github.com)
 
+## Procédure
 Une fois votre compte GitHub créé, aller à l'adresse https://classroom.github.com/a/7pRfBLrO et liez votre compte GitHub. Cela vous créera un dépôt dans la Salle de Classe GitHub et vous fournira un lien à utiliser pour *pousser* (push) votre projet sur GitHub (de la forme  https://github.com/Enseignements-de-Xavier-Raynaud/XXX) . 
-
 
 Pour créer votre projet dans RStudio, il faut ouvrir RStudio et créer un nouveau projet versionné (File > New Project > Version Control) et indiquez le lien fourni précédemment.
 
+## Thèmes du projet
 Vous êtes libre de choisir le projet que vous souhaitez dans la mesure où il couvre tout ou partie de la thématique du module, c'est à dire, 
 - récupération de données sur internet, 
 - analyse textuelle,
