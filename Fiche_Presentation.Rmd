@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Bienvenue dans le module **OpensScience et OpenData**! 
 
-Dans ce module, vous aller voir comment récupérer des données sur Internet et les importer dans R de manière automatique, comment préparer des documents dans lesquels les calculs et analyses sont réalisés au moment de leur génération, comment sauvegarder différentes versions d'un script ou d'un document, comment mettre ces différentes versions dans le *cloud* afin de pouvoir travailler à plusieurs sur un même document. 
+Dans ce module, vous aller voir comment récupérer des données sur Internet et les importer dans R de manière automatique, préparer des documents dans lesquels les calculs et analyses sont réalisés au moment de leur génération, sauvegarder différentes versions d'un script ou d'un document, et mettre ces différentes versions dans le *cloud* afin de pouvoir travailler à plusieurs sur un même document. 
 
 Nous avons prévu du temps dans le module pour vous familiariser, vous même, à ces différentes aspects. Pour cela, il faut que vous ayez à votre disposition:
 
