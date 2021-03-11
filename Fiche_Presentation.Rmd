@@ -47,7 +47,7 @@ Vous êtes libres de choisir le projet que vous souhaitez dans la mesure où il 
 
 Votre projet doit également être *reproductible*, c'est à dire qu'il doit pouvoir s'exécuter automatiquement en 1 clic et produire les mêmes résultats. 
 
-Si vous n'avez pas d'idée de projet simple voici quelques propositions: 
+Si vous n'avez pas d'idée de projet voici quelques propositions: 
 
 * Répondre aux questions des exercices individuels.
 * Les tomes *des Misérables*, de Victor Hugo portent le nom de certains protagonistes. On se demande si ces tomes portent bien leurs noms. Pour ce faire, on comptera les occurences des noms des personnages pour chacun des tomes. Le texte intégral de chaque tome des Misérables est disponible à l'adresse https://www.gutenberg.org/ebooks/search/?query=les+mis%C3%A9rables&submit_search=Go%21
@@ -58,6 +58,6 @@ https://themasites.pbl.nl/tridion/en/themasites/hyde/
 * Récupérer les données de qualité nutritive des aliments pour animaux domestiques à partir de la base *AFZ Feed tables* :  
 https://www.feedtables.com/
 
-* récupérer des données de production agricoles, démographiques, ou socio économique sur le site de l'Europe *Eurostat* :  
+* Récupérer des données de production agricole, démographiques, ou socio économiques sur le site de l'Europe *Eurostat* :  
 https://ec.europa.eu/eurostat/web/main
 
