@@ -1,5 +1,5 @@
 ---
-title: "Préparation Module OpenData"
+title: "Introduction aux TDs du Module OpenData avec R"
 author: "Jérôme Mathieu et Xavier Raynaud"
 date: "16/03/2021 - 18/03/2021"
 output: pdf_document
@@ -9,32 +9,55 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Bienvenue dans le module **OpensScience et OpenData**! 
+Bienvenue dans le module **OpenData avec R**! 
 
-Dans ce module, vous aller voir comment récupérer des données sur Internet et les importer dans R de manière automatique, préparer des documents dans lesquels les calculs et analyses sont réalisés au moment de leur génération, sauvegarder différentes versions d'un script ou d'un document, et mettre ces différentes versions dans le *cloud* afin de pouvoir travailler à plusieurs sur un même document. 
+Dans ce module, vous aller voir comment 
 
-Nous avons prévu du temps dans le module pour vous familiariser, vous même, à ces différentes aspects. Pour cela, il faut que vous ayez à votre disposition:
+* Récupérer des données sur Internet et les importer dans R de manière automatique,
+* Préparer des documents dans lesquels les calculs et analyses sont réalisés au moment de leur génération,
+* Sauvegarder différentes versions d'un script ou d'un document, et mettre ces différentes versions dans le *cloud* afin de pouvoir travailler à plusieurs sur un même document, 
+* Publier vos propres données et scripts en Open Access.
+
+Pour les exercices du module, il faut que vous ayez à votre disposition:
 
 * `R`
 * **RStudio** (http://rstudio.com),
 * `git`, un outil de gestion de versions (voir http://git-scm.com/downloads pour Mac et Windows, nous contacter pour les utilisateurs Linux),
-* s'être créé un compte sur GitHub (www.github.com)
+* vous être créé un compte sur GitHub (www.github.com)
 
-## Procédure
-Une fois votre compte GitHub créé, aller à l'adresse https://classroom.github.com/a/7pRfBLrO et liez votre compte GitHub. Cela vous créera un dépôt dans la Salle de Classe GitHub et vous fournira un lien à utiliser pour *pousser* (push) votre projet sur GitHub (de la forme  https://github.com/Enseignements-de-Xavier-Raynaud/XXX) . 
+Grâce à ces outils, vous pourrez construire un projet reproductible au fil du module.
 
-Pour créer votre projet dans RStudio, il faut ouvrir RStudio et créer un nouveau projet versionné (File > New Project > Version Control) et indiquez le lien fourni précédemment.
+## Procédure pour rejoindre la ClassRoom GitHub
+Une fois votre compte GitHub créé, aller à l'adresse   https://classroom.github.com/a/7pRfBLrO  
+et liez votre compte GitHub.  
+Cela vous créera un dépôt dans la Salle de Classe GitHub et vous fournira un lien à utiliser pour *pousser* (push) votre projet sur GitHub (de la forme  https://github.com/Enseignements-de-Xavier-Raynaud/XXX). 
+
+
+Pour créer votre projet allez dans RStudio et créez un nouveau projet versionné:  
+`File > New Project > Version Control`  
+et indiquez le lien fourni précédemment.
+Ces étapes seront récapitulées le premier jour de la formation.  
 
 ## Thèmes du projet
-Vous êtes libre de choisir le projet que vous souhaitez dans la mesure où il couvre tout ou partie de la thématique du module, c'est à dire, 
-- récupération de données sur internet, 
-- analyse textuelle,
-- génération automatique de rapport
-- etc.
+Vous êtes libres de choisir le projet que vous souhaitez dans la mesure où il couvre tout ou partie de la thématique du module, c'est à dire : 
+
+* Récupération de données sur internet sous forme de script, 
+* Analyse textuelle (manipulation de texte),
+* Génération automatique d'un rapport
+
 Votre projet doit également être *reproductible*, c'est à dire qu'il doit pouvoir s'exécuter automatiquement en 1 clic et produire les mêmes résultats. 
 
 Si vous n'avez pas d'idée de projet simple voici quelques propositions: 
 
-- les tomes *des Misérables*, de Victor Hugo portent le nom de certains protagonistes. On se demande si ces tomes portent bien leurs noms. Pour ce faire, on comptera les occurences des noms des personnages pour chacun des tomes. Le texte intégral de chaque tome des Misérables est disponible à l'adresse https://www.gutenberg.org/ebooks/search/?query=les+mis%C3%A9rables&submit_search=Go%21
+* Répondre aux questions des exercices individuels.
+* Les tomes *des Misérables*, de Victor Hugo portent le nom de certains protagonistes. On se demande si ces tomes portent bien leurs noms. Pour ce faire, on comptera les occurences des noms des personnages pour chacun des tomes. Le texte intégral de chaque tome des Misérables est disponible à l'adresse https://www.gutenberg.org/ebooks/search/?query=les+mis%C3%A9rables&submit_search=Go%21
 
--
+* Faire des cartes de l'occupation du sol à differentes dates à partir de la base *HYDE* :  
+https://themasites.pbl.nl/tridion/en/themasites/hyde/
+
+* Récupérer les données de qualité nutritive des aliments pour animaux domestiques à partir de la base *AFZ Feed tables* :  
+https://www.feedtables.com/
+
+* récupérer des données de production agricoles, démographiques, ou socio économique sur le site de l'Europe *Eurostat* :  
+https://ec.europa.eu/eurostat/web/main
+
